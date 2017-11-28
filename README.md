@@ -8,3 +8,6 @@ In de toekomst kan ook data uit andere bronnen/API's gebruikt worden.
 
 De visualisatie is gemaakt voor AmsterdamNu, waarbij op grote schermen in het Stadhuis en andere locaties van de Gemeente Amsterdam informatie over de stad en de gemeente wordt getoond. Dit dashboard is daarom geoptimaliseerd voor 'auto-play' op een full-screen full HD of 4k-scherm, zonder interactie.
 Het dashboard kan ook gebruikt worden op een desktop-browser en ondersteunt wel interactie (klikken op kaart, tabel of grafiek)
+
+# Preview
+https://open.data.amsterdam.nl/AmsterdamNu/index.html
