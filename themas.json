@@ -1,0 +1,235 @@
+[
+    {"thema": "Algemeen",
+     "icon": "fa-times",
+     "variabelen": [
+        {"variabele": "BEVTOTAAL","label": "Aantal inwoners"},
+        {"variabele": "BEVPOTBBV15_64_P","label": "Potentiele beroepsbevolking"},
+        {"variabele": "WVOORRBAG","label": "Woning- voorraad"},
+        {"variabele": "WWOZ_M2","label": "WOZ-waarde per m2"},
+        {"variabele": "LSPAN_I","label": "Spanningen- index"},
+        {"variabele": "LOVERL_P","label": "Overlast"},
+        {"variabele": "BHVEST","label": "Bedrijfs- vestingen"},
+        {"variabele": "BHSTART_P","label": "Startende ondernemers"},
+        {"variabele": "BHHOTBED","label": "Hotelbedden"},
+        {"variabele": "IHHINK_GEM","label": "Gem. inkomen (huishouden)"},
+        {"variabele": "IWWB_P","label": "Bijstand"},
+        {"variabele": "SRCULTUUR_1000INW","label": "Cultuur"},
+        {"variabele": "WZGEZOND_1000INW", "label": "Gezondheids- zorg"},
+        {"variabele": "WZWELZIJN_1000INW", "label": "Welzijn"},
+        {"variabele": "ORSCHOONSTRATEN_R","label": "Schone straten"}
+     ]},
+    {"thema": "Bevolking",
+     "icon": "fa-users",
+     "variabelen": [
+        {"variabele": "BEVTOTAAL","label": "Aantal inwoners"},
+        {"variabele": "BEV0_3_P","label": "0-3 jaar"},
+        {"variabele": "BEV0_18_P","label": "0-18 jaar"},
+        {"variabele": "BEVPOTBBV15_64_P","label": "15-64 jaar"},
+        {"variabele": "BEV65PLUS_P","label": "65+"},
+        {"variabele": "BEVALLEENHH_P","label": "Eenpersoons- huishoudens"},
+        {"variabele": "BEVEENOUDERHH_P","label": "Eenouder- gezinnen"},
+        {"variabele": "BEVPAARZKINDHH_P","label": "Paar zonder kinderen"},
+        {"variabele": "BEVPAARMKINDHH_P","label": "Gezin met kinderen"}
+    ]
+    },
+    {"thema": "Diversiteit",
+     "icon": "fa-circle-o",
+     "variabelen": [
+        {"variabele": "BEVAUTOCH_P","label": "Nederlands"},
+        {"variabele": "BEVWEST_P","label": "Westers"},
+        {"variabele": "BEVNW_P","label": "Niet-westers"},
+        {"variabele": "BEVOPLLAAG_P","label": "Laag opgeleid"},
+        {"variabele": "BEVOPLMID_P","label": "Middel opgeleid"},
+        {"variabele": "BEVOPLHOOG_P","label": "Hoog opgeleid"},
+        {"variabele": "BEVWOONDUUR","label": "Woonduur"},
+        {"variabele": "BEVMUTTOT_P","label": "Mutatiegraad"},
+        {"variabele": "LSOCKWAL_P","label": "Sociale cohesie"},
+        {"variabele": "LSPAN_I","label": "Spanningenindex"}   
+    ]
+    },
+    {"thema": "Bedrijvigheid",
+     "icon": "fa-building-o",
+     "variabelen": [
+       {"variabele": "BHVEST","label": "Bedrijfs- vestingen"},
+       {"variabele": "BHWP", "label": "Werkzame personen"},
+       {"variabele": "BHSTART_P","label": "Startende ondernemers"},
+       {"variabele": "BHZZP_P","label": "ZZP'ers"},
+       {"variabele": "BHKANTRUIM_M2","label": "Kantoor- ruimte"},
+       {"variabele": "BHBDRFRUIM_M2","label": "Bedrijfs- ruimte"},
+       {"variabele": "BHBGWWVO_M2","label": "Winkel- ruimte"}
+    ]
+    },
+    {"thema": "Bedrijven (sectoren)",
+     "icon": "fa-building",
+     "variabelen": [
+        {"variabele": "BHWPC_P","label": "Industrie"},
+        {"variabele": "BHWPF_P","label": "Bouw"},
+        {"variabele": "BHWPG2_P","label": "Detailhandel"},
+        {"variabele": "BHWPH_P","label": "Transport & Logistief"},
+        {"variabele": "BHWPI_P","label": "Horeca"},
+        {"variabele": "BHWPJ_P","label": "ICT"},
+        {"variabele": "BHWPK_P","label": "Finance"},
+        {"variabele": "BHWPL_P","label": "Handel & verhuur onroerend goed"},
+        {"variabele": "BHWPM_P","label": "Advisering & onderzoek"},
+        {"variabele": "BHWPN_P","label": "Overige zakelijke dienstverlening"},
+        {"variabele": "BHWPP_P","label": "Onderwijs"},
+        {"variabele": "BHWPQ_P","label": "Gezondheid & Welzijn"},
+        {"variabele": "BHWPR_P","label": "Cultuur, sport & recreatie"},
+        {"variabele": "BHWPS_P","label": "Overig dienstverlening"}
+    ]
+    },
+    {"thema": "Inkomen",
+     "icon": "fa-money",
+     "variabelen": [
+        {"variabele": "IHHINK_GEM","label": "Gem. inkomen (huishouden)"},
+        {"variabele": "IGINI","label": "Inkomens- ongelijkheid"},
+        {"variabele": "ILAAGHH120_P","label": "Lage inkomens"},
+        {"variabele": "IMINHH120_P","label": "Minima- huishoudens"},
+        {"variabele": "IMINJONG120_P","label": "Minima jongeren"},
+        {"variabele": "IWWB_P","label": "Bijstand"},
+        {"variabele": "ISHV_P","label": "Schuld- hulpverlening"}
+    ]
+    },
+    {"thema": "Onderwijs",
+     "icon": "fa-graduation-cap",
+     "variabelen": [
+        {"variabele": "OVVEINDI_P","label": "VVE indicaties"},
+        {"variabele": "OSCHBAO","label": "Basisscholen"},
+        {"variabele": "OLLBAO","label": "Basisschool- leerlingen"},
+        {"variabele": "OCITO_GEM","label": "CITO-score"},
+        {"variabele": "OSCHVO","label": "Middelbare scholen"},
+        {"variabele": "OLLVO","label": "Middelbare scholieren"},
+        {"variabele": "OSTUDMBO","label": "Studenten MBO"},
+        {"variabele": "OSTUDHBO","label": "Studenten HBO"},
+        {"variabele": "OSTUDWO","label": "Studenten WO"}
+        ]
+    },
+    {"thema": "Openbare Ruimte",
+     "icon": "fa-tree",
+     "variabelen": [
+        {"variabele": "OROMGEVINGMOOI_R","label": "Woonomgeving"},
+        {"variabele": "ORWONINGENMOOI_R","label": "Woningen"},
+        {"variabele": "ORGROENMOOI_R","label": "Groen"},
+        {"variabele": "ORAANBODSPELEN_R","label": "Speelvoorzieningen"},
+        {"variabele": "ORSCHOONSTRATEN_R","label": "Straten & stoepen"},
+        {"variabele": "ORVERLOED_P","label": "Verloedering"},
+        {"variabele": "MVERVUILING_R","label": "Vervuiling"},
+        {"variabele": "ORVERBLIJF_I","label": "Verblijvers- dichtheid"}
+        ]
+    },
+    {"thema": "Participatie",
+     "icon": "fa-handshake-o",
+     "variabelen": [
+        {"variabele": "PMAATSCHAP_P","label": "Participatie"},
+        {"variabele": "PMANTEL_P","label": "Mantelzorgers"},
+        {"variabele": "PVRIJWIL_P","label": "Vrijwilligers"},
+        {"variabele": "PINZETBRT_P","label": "Inzet buurt/stad"},
+        {"variabele": "PINFORM_P","label": "Informele hulp"},
+        {"variabele": "PUITSL_I","label": "Sociale uitsluiting"},
+        {"variabele": "PBUUR_P","label": "Contact buren"},
+        {"variabele": "PBUURTG_P","label": "Contact buurt"},
+        {"variabele": "PRELIGIE_P","label": "Verwant geloof"},
+        {"variabele": "PGODSHUIS_P","label": "Bezoek godshuis"},
+        {"variabele": "PVERENIGING_P","label": "Lid vereniging"}
+        ]
+    },
+    {"thema": "Sport & Recreatie",
+     "icon": "fa-futbol-o",
+     "variabelen": [
+        {"variabele": "BHHOTBED","label": "Hotelbedden"},
+        {"variabele": "BHVEST_HORECA","label": "Horeca"},
+        {"variabele": "SRCULTUUR","label": "Cultuur"},
+        {"variabele": "SRSPORT","label": "Sport"}
+    ]
+    },
+    {"thema": "Gemeente",
+     "icon": "fa-legal",
+     "variabelen": [
+        {"variabele": "DPOLITIE_P","label": "Politie- functioneren"},
+        {"variabele": "DTEVREDENGEM_P","label": "Gemeente- functioneren"}
+        ]
+    },
+    {"thema": "Veiligheid",
+     "icon": "fa-id-card-o",
+     "variabelen": [
+        {"variabele": "VVEILIGH_I","label": "Veiligheids- index"},
+        {"variabele": "VBELEVING_I","label": "Onveiligheids- beleving index"},
+        {"variabele": "VBUURTVEILIG_R","label": "Veiligheid buurt"},
+        {"variabele": "VVEILIGDAG_R","label": "Veiligheids- gevoel overdag"},
+        {"variabele": "VVEILIGAVOND_R","label": "Veiligheids- gevoel avond"},
+        {"variabele": "VCRIMINALITEIT_R","label": "Overlast criminaliteit"},
+        {"variabele": "VHG_1000","label": "Huiselijk geweld"},
+        {"variabele": "VBRAND_P","label": "Binnenbrand"},
+        {"variabele": "VVOLWASSEN_P","label": "Verdachten"},
+        {"variabele": "VJEUGDIGE_P","label": "Jeugdige verdachten"}
+        ]
+    },
+    {"thema": "Verkeer",
+     "icon": "fa-car",
+     "variabelen": [
+        {"variabele": "VKPTOTAAL","label": "Parkeer- plaatsen (totaal)"},
+        {"variabele": "VKPFISCAAL","label": "Paarkeer- plaatsen (betaald)"},
+        {"variabele": "VKPARKEREN_R","label": "Rapportcijfer parkeren"},
+        {"variabele": "VKPARKEEROVERLAST_R","label": "Parkeeroverlast"},
+        {"variabele": "VKOV_R","label": "Aanbod OV"},
+        {"variabele": "VKOV65_R","label": "Aanbod OV 65+"},
+        {"variabele": "VKOVERLASTVERKEER_R","label": "Overlast verkeersdrukte"},
+        {"variabele": "VKVERKEERSLAWAAI_R","label": "Overlast verkeerslawaai"},
+        {"variabele": "VKHARD_P","label": "Overlast hard rijden"},
+        {"variabele": "VKAGRESSIEF_P","label": "Overlast aggressief gedrag"},
+        {"variabele": "VKPARKOVL_P","label": "Overlast parkeerproblemen"}
+        ]
+    },
+    {"thema": "Welzijn & Zorg",
+     "icon": "fa-heartbeat",
+     "variabelen": [
+        {"variabele": "WZSLI_I","label": "Standaard Leefsituatie Index"},
+        {"variabele": "WZZORGVOORZIENINGEN_R","label": "Aanbod zorg- voorzieningen"},
+        {"variabele": "WZGEZOND_P","label": "Goede gezondheid"},
+        {"variabele": "WZONGEZOND_P","label": "Slechte gezondheid"},
+        {"variabele": "WZGEZOND","label": "Gezondheidszorg- voorzieningen"},
+        {"variabele": "WZWELZIJN","label": "Welzijns- voorzieningen"},
+        {"variabele": "WZ_KDV","label": "Kinderopvang (capaciteit)"},
+        {"variabele": "WZROOK_P","label": "Rokers"},
+        {"variabele": "WZALC_P","label": "Zwaar alcoholgebruik"},
+        {"variabele": "PEENZ_P","label": "Ernstige eenzaamheid"}
+        ]
+    },
+    {"thema": "Werk",
+     "icon": "fa-briefcase",
+     "variabelen": [
+        {"variabele": "PWERKEND_P","label": "Arbeids- participatie"},
+        {"variabele": "PWERKENDVROUW_P","label": "Participatie vrouwen"},
+        {"variabele": "PWERKENDJEUGD_P","label": "Participatie jeugd"},
+        {"variabele": "PWERKLBBV_P","label": "Werkloosheid"},
+        {"variabele": "PREGWERKL_P","label": "Geregistreerde werkloosheid"},
+        {"variabele": "PJEUGDW_P","label": "Gerigistreerde jeugdwerkloosheid"}
+        ]
+    },
+    {"thema": "Wonen",
+     "icon": "fa-home",
+     "variabelen": [
+        {"variabele": "WVOORRBAG","label": "Woningvoorraad"},
+        {"variabele": "WCORHUUR_P","label": "Corporatie woningen"},
+        {"variabele": "WPARTHUUR_P","label": "Particuliere verhuur"},
+        {"variabele": "WKOOP_P","label": "Koopwoningen"},
+        {"variabele": "WWOZ_GEM","label": "WOZ-waarde"},
+        {"variabele": "WWOZ_M2","label": "WOZ-waarde per m2"},
+        {"variabele": "WHUUR_GEM","label": "Gem. huur (totaal)"},
+        {"variabele": "WHUURVRIJ_GEM","label": "Gem. huur (vrije sector)"},
+        {"variabele": "WOPP0040_P","label": "0-40 m2"},
+        {"variabele": "WOPP4060_P","label": "40-60 m2"},
+        {"variabele": "WOPP6080_P","label": "60-80 m2"},
+        {"variabele": "WOPP80100_P","label": "80-100 m2"},
+        {"variabele": "WOPP100PLUS_P","label": "100m2 +"}
+        ]
+    },
+    {"thema": "Duurzaamheid",
+     "icon": "fa-recycle",
+     "variabelen": [
+        {"variabele": "DLABEL_P","label": "Woningen met Energielabel"},
+        {"variabele": "WDUBBELGLAS_P","label": "Woningen met dubbelglas"},
+        {"variabele": "DZON","label": "Zonnepanelen"}
+    ]
+    }
+]

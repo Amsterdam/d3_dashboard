@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="explore.css">
+<script src="https://use.fontawesome.com/afa828d5f3.js"></script>
+<body>
+
+<div id="dashboard" style='position: absolute; top: 0px; left: 0px; bottom: 100px; right: 0px;'></div>
+<div id="control" style='position: fixed; height: 60px; left: 30px; bottom: 0px; right: 0px; background: white'>
+    <div id='start' onClick='start()'><i class='fa fa-play'></i></div>
+    <div id='stop' onClick='stop()' style='display: none'><i class='fa fa-stop'></i></div>
+    <span id="selectThema" onClick='toggleThemas();'><strong>Selecteer een ander thema</strong></span>
+    <br/>Bron: Gemeente Amsterdam, OIS, <a href='https://data.amsterdam.nl/#?dte=catalogus%2Fapi%2F3%2Faction%2Fpackage_show%3Fid%3Db51154d8-2eca-4dd9-932d-63bca9ef0bf2&dtfs=T&mpb=topografie&mpz=11&mpv=52.3731081:4.8932945'>BBGA</a> (live via <a href='https://api.data.amsterdam.nl/bbga/'>API Datapunt</a>)
+    <br/>Visualisatie: Gemeente Amsterdam, AmsterdamNu (Jasper Soetendal)
+</div>
+<div id='screenwarning'>
+<div style='float: right;'><i onClick='$("#screenwarning").hide()' class='fa fa-close'></i></div>
+Deze visualisatie is ontworpen voor fullscreen weergave op een groot scherm.</div>
+<div id="themadialog">
+    <h1>Selecteer een thema:</h1>
+    <HR style='border: 1px solid red; margin-bottom: 2em;'>
+    <ul class='themas' id='themalist'>
+    </ul>
+</div>
+
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="functions.js"></script>
+<script src="dashboard.js"></script>
+<script src="graph.js"></script>
+<script src="map.js"></script>
+<script src="data.js"></script>
+// TODO's -----------------------------
+<!--
+   - Blok maken met huidige waarde en stijging/daling t.o.v. vorig jaar
+   - format_number en max. score (10, 100, etc.)afhankelijk make van type variabele (_P = percentage, _R = rapportcijfer, _I = index)
+   - Ooit: gebiedsniveau kiezen
+   - Achtergrond toevoegen voor Kaart Amsterdam?
+-->
+<script>
+    var data = new Data();
+    
+    var dashboard = new Dashboard($(window).width() - 20, $(window).height() -120,"#dashboard");
+    if($(window).width() < 1024){
+        $("#screenwarning").show();
+    }
+    
+    data.getThemas(function(){
+        dashboard.showThemas();
+        dashboard.showThema(0);   
+    })
+    
+    function toggleThemas(){
+        $("#selectThema").toggle();
+        $("#themadialog").toggle();
+    }
+    
+    function showThema(num){
+        toggleThemas();
+        dashboard.showThema(num);
+    }    
+    
+    function start(){
+        $("#control #start").hide();
+        $("#control #stop").show();
+        dashboard.start();
+    }
+
+    function stop(){
+        $("#control #stop").hide();
+        $("#control #start").show();
+        dashboard.stop();
+    }
+
+</script>

@@ -1,0 +1,272 @@
+
+body{
+    font-family: Verdana, Arial;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.background {
+  fill: #fff;
+  pointer-events: all;
+}
+
+.map-layer {
+  fill: #fff;
+  stroke: #aaa;
+  stroke-width: 1;
+}
+
+path.line { 
+    stroke: red;
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+path.titelkader { fill: red; stroke: none}
+path.footerkader { fill: #eee; stroke: none}
+path.themakader { fill: red; stroke: none}
+text.thema{ fill: white; font-size: 18px}
+.title { font-family: Corbel, Arial; font-size: 50px; stroke: none; fill: white;}
+#selectThema{
+    cursor: pointer;
+}
+
+#screenwarning{
+    padding: 10px;   
+    display: none;
+    color: white;
+    background: red;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#start, #stop{
+    float: left;
+    padding: 0px 10px 10px 0px;
+    height: 60px;
+    width: 60px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.bargraph .subtitle{
+    font-weight: bold;
+}
+.bargraph .currentvalue{
+    font-weight: bold;
+    font-size: 150%
+}
+.bargraph .year{
+    fill: #AAA;
+    font-weight: bold;
+    font-size: 80%
+}
+
+#themadialog{
+    position: fixed; 
+    left: 28%;
+    right: 28%;
+    top: 180px;
+    bottom: 400px;
+    padding: 20px;
+    background: white;
+    border: 2px solid red;
+    display: none;
+}
+
+ul.themas{
+    padding: 0px 0px;
+    margin: 10px;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    font-size: 1.5em;
+}
+
+ul.themas li{
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+ul.themas li.active{
+    font-weight: bold;
+    color: red;
+}
+
+ul.themas li i{
+    width: 1.5em;
+    text-align: center;
+    font-size: 120%;
+    margin-right:0.5em;
+}
+
+ul.themas li span{
+}
+
+div#select{
+    width: 300px;
+    float: left; 
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+    height: 550px;
+}
+
+div#thema select{
+    font-size: 18px;
+    width: 100%;
+}
+
+div#variabele{
+    height: 500px;
+    overflow: auto;
+}
+div#thema{
+    margin-bottom: 10px;
+}
+
+ul{
+    margin: 0px;
+}
+
+#block{
+    float: left;
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+    height: 550px;
+    margin-left: 10px;
+}
+
+#meta{
+    float: left;
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+    width: 1017px;
+    margin-top: 10px;
+}
+
+li{
+    cursor: pointer;
+}
+.box{
+    background: #F6F6F6;
+    border-right: 5px solid #CCCCCC;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box.small{
+    width: 170px;
+    padding: 6px;
+    margin: 10px 10px 10px 0px;
+}
+
+.box.medium{
+    width: 240px;
+    padding: 6px;
+    margin: 10px 10px 10px 0px;
+}
+
+
+.box .header{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.box.medium .header{
+    text-align: left;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.box.small .header{
+    text-align: left;
+    font-size: 12px;
+    height: 36px;
+    overflow: none;
+}
+
+.box .current{
+    float: right;
+    text-align: right;
+    width: 120px;
+    padding: 0px 10px;
+}
+
+.box .current h2{
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+}
+
+.box .footer{
+    color: silver;
+    padding-top: 10px;
+    min-height: 55px;
+    display: none;
+}
+
+.bar {
+  fill: red;
+}
+
+.activebar {
+  fill: #BB0000;
+}
+
+.box.medium .bar{
+  fill: #808080;
+}
+.box.medium .bar:last-child{
+  fill: red;
+}
+
+.bar:hover {
+  fill: #DD0000;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #DDDDDD;
+  shape-rendering: crispEdges;
+}
+
+.y.axis path, .x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  font: 10px sans-serif;
+  padding: 5px;
+  background: white;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+}
+
+dt{
+    font-weight: bold;
+}
+
+dd{
+    margin: 0px;
+    padding-bottom: 10px;
+}
